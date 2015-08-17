@@ -1,0 +1,46 @@
+#msg-div {
+    position:absolute;
+    left:50%;
+    top:10px;
+    width:350px;
+    margin-left:-200px;
+    z-index:20000;
+}
+#msg-div .msg {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #F6F6F6;
+    /*border: 2px solid #ccc;*/
+    margin-top: 2px;
+    padding: 10px 15px;
+    color: #555;
+}
+#msg-div .error {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #FFF09D;
+    /*border: 2px solid #FFF09D;*/
+    margin-top: 2px;
+    padding: 10px 15px;
+    /*color: #555;*/
+}
+#msg-div span{
+    display: block;
+    /*height: 30px;*/
+    line-height: 24px;
+    /*margin: 0 0 8px;*/
+    padding-left: 24px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#msg-div .msg span{
+    background:url('images/msg.png') no-repeat;
+}
+#msg-div .error span{
+    background:url('images/error.png') no-repeat;
+    color: #ff111a;
+}
+#msg-div p {
+    margin: 0;
+    padding-left: 25px;
+}
